@@ -1,0 +1,117 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+	font-family: Roboto;
+	font-size: 14px;
+}
+
+.MainForm {
+	margin: 10px;
+	list-style: none;
+	width: 400px;
+	background-color: #9C9C9C;
+	border: 2px solid #626262;
+	border-radius: 3px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+.Header {
+	border-bottom: 1px solid #C4C4C4;
+	padding: 20px;
+	font-weight: 500;
+	font-size: 32px;
+}
+
+.Inputs {
+	border-bottom: 1px solid #C4C4C4;
+	padding-bottom: 20px;
+}
+
+.LabelAndText {	
+	padding: 20px;
+}
+
+.Text {
+	margin-top: 5px;
+	box-sizing: border-box;
+	width:100%;
+	border:1px solid #9C9C9C;
+	border-radius:3px;
+	padding: 6px 10px;
+}
+
+.PasswordContainer {
+	margin: 0;
+    padding: 0 20px;
+}
+
+.LabelAndPassword:last-child {
+	margin-left: 5px;
+}
+
+.PasswordContainer:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.LabelAndPassword {
+	width: 175px;
+	float: left;
+	font-size: 14px;	
+}
+
+.Password {
+	margin-top: 5px;
+	box-sizing: border-box;
+	width: 100%;
+	border: 1px solid #9C9C9C;
+	border-radius: 3px;
+	padding: 6px 10px;
+}
+
+.Age {
+    padding: 0 20px;
+	width: 175px;
+	font-size: 14px;
+}
+
+.Buttons {
+    padding: 20px 20px;
+}
+
+.Buttons:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.Submit {
+	font-size: 14px;
+	padding: 8px 12px;
+	float: left;
+	width: 95px;
+	border: 1px solid #616161;
+	border-radius: 3px;
+	color: #CCCCCC;
+	background: #616161;
+}
+
+.Cancel {
+	font-size: 14px;
+	padding: 8px 12px;
+	float: right;
+	width: 74px;
+	border: 1px solid #CCCCCC;
+	border-radius: 3px;
+	color: #616161;
+	background: #CCCCCC;
+}
+
+input[type="text"]:invalid, input[type="email"]:invalid, input[type="password"]:invalid {
+	border-color: red;
+}
